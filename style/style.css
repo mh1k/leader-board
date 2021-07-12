@@ -152,7 +152,7 @@ span{
     justify-content: space-between;
 }
 .course{
-    width: 225px;
+    /* width: 225px; */
     box-shadow:0px 6px 14px rgba(0, 0, 0, 0.295);
     border-radius: 15px;
     padding: 10px;
@@ -161,7 +161,7 @@ span{
 .courses{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap:30px;
+    column-gap:20px;
     
 }
 .latest-course{
