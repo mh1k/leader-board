@@ -58,19 +58,22 @@ align-items: center;
     color: white;
     font-size: 16px;
 }
-.nav-area{
+.navbar{
+    width: 100%;
+    height: 90px;
     display: flex;
-    justify-content: space-between;
-    width: 870px;
+    flex-direction: column;
     align-items: center;
     background-color: #562EFF;
-    margin: 0px 240px;
-    
 }
-header{
-    background-color: #562EFF;
-    padding-top: 8px;
+.nav-area{
+    display: flex;
+    align-items: center;
+    width: 870px;
+    height: 100%;
+    justify-content: space-between;
 }
+
 
 /*****************\
 \***top players***/
@@ -100,6 +103,7 @@ header{
     margin-left: 30px;
     margin-top: 33px;
 }
+
 
 
 
@@ -229,9 +233,32 @@ span{
 *****media query***********/
 
 @media only screen and (max-width:688px) {
+    
+    body{
+        margin: 0px;
+        padding: 0px;
+           
+    }
+    hr{
+        width: 85%;
+    }
     .container{
         width: 100%;
 
+    }
+    navbar{
+        height: 50px;
+        width: 100%;
+    }
+    .nav-area{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    
+    }
+    .menu a{
+        font-size: 15px;
+        margin-left: 20px;
     }
     .players, .blogs, .courses{
         grid-template-columns: repeat(1, 1fr);
@@ -239,6 +266,27 @@ span{
     }
     .player, .blog{
         flex-direction: column;
+    }
+    .blog{
+        margin-bottom: 25px;
+        margin-right: 30px;
+    }
+    .logo-text{
+        margin-left: 10px;
+    }
+    .menu{
+        margin-right: 10px;
+    }
+    
+    .course{
+        margin-bottom: 50px;
+        
+    
+    }
+    .img-c{
+        width: 100%;
+        height: 100%;
+        
     }
 
 
