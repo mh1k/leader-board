@@ -160,8 +160,8 @@ hr{
 \***latest course*******/
 
 .course-banner img{
-    width:234px;
-    height: 105px;
+    width:100%;
+    height:100%;
     
 }
 .course-banner{
@@ -287,6 +287,10 @@ span{
         width: 100%;
         height: 100%;
         
+    }
+    .course-banner{
+        width: 450px;
+        height: 200px;
     }
 
 
